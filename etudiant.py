@@ -1,3 +1,5 @@
+from departement import Departement
+
 class Etudiant:
     id: str
     nom: str
@@ -14,4 +16,4 @@ class Etudiant:
 
 etud1 = Etudiant('111', 'mohamed', 'med@gmail.com')
 
-print(etud1.info_etudiant())
+#print(etud1.info_etudiant())
